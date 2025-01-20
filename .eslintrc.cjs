@@ -9,6 +9,7 @@ module.exports = {
     '@vue/eslint-config-typescript',
     '@vue/eslint-config-prettier',
   ],
+
   // 小程序全局变量
   globals: {
     uni: true,
