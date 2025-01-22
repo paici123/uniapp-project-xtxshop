@@ -114,6 +114,18 @@
           "style": {
             "navigationBarTitleText": "设置"
           }
+        },
+        {
+          "path": "address/address",
+          "style": {
+            "navigationBarTitleText": "地址管理"
+          }
+        },
+        {
+          "path": "address-form/address-form",
+          "style": {
+            "navigationBarTitleText": ""
+          }
         }
       ]
     }
@@ -122,7 +134,9 @@
   "preloadRule": {
     "pages/my/my": {
       "network": "all", // [!code ++]
-      "packages": ["pagesMember"] // [!code ++]
+      "packages": [
+        "pagesMember"
+      ] // [!code ++]
     }
   }
 }
