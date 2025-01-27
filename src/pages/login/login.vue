@@ -19,7 +19,7 @@ const onGetPhonenumber: UniHelper.ButtonOnGetphonenumber = async (ev) => {
     encryptedData,
     iv,
   })
-  console.log(res)
+  // console.log(res)
 }
 
 //3.模拟手机号码快捷键登录
@@ -35,7 +35,9 @@ const onGetphonenumberSimple = async () => {
   //页面延时跳转
   setTimeout(() => {
     //页面跳转到我的  mask="true":防止触摸穿透 避免重复点击触发方法
-    uni.switchTab({ url: '/pages/my/my' })
+    // uni.switchTab({ url: '/pages/my/my' })
+    //无论在那个页面点击登录跳转登录页面，登录成功后都会返回需要登录的页面
+    uni.navigateBack()
   }, 500)
 }
 </script>
