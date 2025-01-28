@@ -124,7 +124,7 @@
         {
           "path": "address-form/address-form",
           "style": {
-            "navigationBarTitleText": ""
+            "navigationBarTitleText": "地址列表"
           }
         }
       ]
@@ -141,7 +141,20 @@
         {
           "path": "detail/detail",
           "style": {
-            "navigationBarTitleText": "订单详情"
+            "navigationBarTitleText": "订单详情",
+            "navigationStyle": "custom"
+          }
+        },
+        {
+          "path": "pagesOrder/payment/payment",
+          "style": {
+            "navigationBarTitleText": "支付成功"
+          }
+        },
+        {
+          "path": "list/list",
+          "style": {
+            "navigationBarTitleText": "订单列表"
           }
         }
       ]
