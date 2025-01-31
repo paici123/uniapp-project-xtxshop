@@ -1,5 +1,5 @@
 /** 订单状态枚举 */
-export enum OrderStates {
+export enum OrderState {
   DaiFuKuan = 1 /** 待付款 */,
   DaiFaHuo = 2 /** 待发货 */,
   DaiShouHuo = 3 /** 待收货 */,

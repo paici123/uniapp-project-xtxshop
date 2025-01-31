@@ -10,13 +10,13 @@ import { onMounted, ref } from 'vue'
 const { safeAreaInsets } = uni.getSystemInfoSync()
 // 1.定义porps
 const props = defineProps<{
-  OrderState: number
+  OrderStates: number
 }>()
 // 2.请求参数
 const queryParams: OrderListParams = {
   page: 1,
   pageSize: 5,
-  orderState: props.OrderState,
+  orderState: props.OrderStates,
 }
 
 // 3.获取订单列表
